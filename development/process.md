@@ -15,7 +15,7 @@ show_hero: true
 
 
 This is the process we suggest for contributions.  This process is designed to reduce the burden on project 
-reviews, impact on other contributors, and to keep the amount of rework from the contributor to a minimum.
+reviewers, impact on other contributors, and to keep the amount of rework from the contributor to a minimum.
 
 1. Sign the [contributor license agreement]({{site.github_org_url}}/cla).
 
@@ -35,26 +35,25 @@ reviews, impact on other contributors, and to keep the amount of rework from the
 
 4. Create a Github [pull request]({{site.github_repo_url}}/pulls) (PR).
 
-    1. Make sure the pull request passes the tests in Travis CI.
+    1. Make sure the pull request passes the tests in CI.
     2. If known, request a review from an expert in the area changed.  If unknown, ask for help on [Slack](/slack.html).
 
 5. Review is performed by one or more reviewers.
 
     1. This normally happens within a few days, but may take longer if the change is large, complex, or if a
-       critical reviewer is unavailable. (feel free to ping the pull request).
+       critical reviewer is unavailable. (feel free to ping the reviewer on the pull request).
 
 6. Address concerns and update the pull request.
 
-    1. Comments are attached to each individual commit in the pull, and changes should be addressed in a
-       new `Fixup!` commit placed after each commit.  This is to make it easier for the reviewer to see what was updated.
-    2. After pushing the changes, add a comment to the pull-request, mentioning the reviewers by name, stating
-       the change have been addressed.  This is the only way that a reviewer is notified that you are ready
+    1. Comments are addressed to each individual commit in the pull request, and changes should be addressed in a
+       new [`fixup!` commit](https://git-scm.com/docs/git-commit#Documentation/git-commit.txt---fixupamendrewordltcommitgt) placed after each commit.
+       This is to make it easier for the reviewer to see what was updated.
+    2. After pushing the changes, add a comment to the pull-request, mentioning the reviewers by name, stating that
+       the review comments have been addressed.  This is the only way that a reviewer is notified that you are ready
        for the code to be reviewed again.
     3. Go to step 5.
 
 7. Maintainer merges the pull request after final changes are accepted.
-
-8. Add release notes to the [issue]({{site.github_repo_url}}/labels/release-notes) for the upcoming release.
 
 </div>
 </div>

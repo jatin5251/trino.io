@@ -21,11 +21,15 @@ title: Distributed SQL query engine for big data
   </div>
 </div>
 
-<div class="trino-birthday-banner">
-  <div class="trino-birthday-content">
-    <h1>Trino is celebrating its 10th Birthday!</h1>
-    <a class="btn trino-birthday-button" href="{{ site.url }}{% post_url 2022-08-08-trino-tenth-birthday %}">Learn more</a>
-    <img src="./assets/images/trino-birthday-banner-peek.png" class="trino-birthday-peek">
+<div class="trino-summit-banner">
+  <div class="trino-summit-content">
+    <img src="/assets/images/trino-summit-logo.png" class="trino-summit-logo" />
+    <h3>November 10th, 2022</h3>
+    <div class="card-deck spacer-30">
+        <a class="btn trino-summit-button" href="https://www.starburst.io/info/trinosummit/" target="_blank">Register</a>
+        <a class="btn btn-pink" href="{% post_url 2022-09-22-trino-summit-2022-teaser %}">Learn More</a>
+    </div>
+    <img src="/assets/images/trino-summit-banner-peek.png" class="trino-summit-peek">
   </div>
 </div>
 
